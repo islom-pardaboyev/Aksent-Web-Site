@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksent</title>
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-sans overflow-x-hidden font-ibm-plex">
+    <header class="items-center mb-[28px] bg-[#F2F2FA]">
+        <div class="container mx-auto pt-[36px] flex justify-between">
+            <div class="flex items-center">
+                <p class="mr-[20px] font-medium leading-[20px] text-[#151515] text-[16px]">Toshkent</p>
+                <img class="mr-[8px]" src="./img/Weather.svg" alt="">
+                <p>28°C</p>
+            </div>
+            <div>
+                <img src="./img/Aksent.png" alt="">
+            </div>
+            <div>
+                <label for="site_languages">
+                    <select class="bg-[#F2F2FA]" id="site_languages">
+                        <option selected value="O'zb">O'zbekcha</option>
+                        <option value="Ўзб">Ўзбекча</option>
+                        <option value="Rus">Русский</option>
+                        <option value="Eng">English</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <span class="mt-[36px] bg-neutral-900 bg-opacity-20 flex h-[1px] flex-col"></span>
+        <div class="container mx-auto grid grid-cols-12">
+            <div class="lg:col-span-6 sm:hidden lg:inline-block py-[24px] text-[#151515] text-[14px] font-bold uppercase">
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200 mr-[24px]" href="#">Siyosat</a>
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200 mr-[24px]" href="#">Jamiyat</a>
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200 mr-[24px]" href="#">Tahlil</a>
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200 mr-[24px]" href="#">Qonunchilik</a>
+            </div>
+            <div class="lg:col-span-6 sm:hidden lg:inline-block text-right py-[24px]">
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200" href="#">Aksent-tv</a>
+                <span class="text-[14px] px-[12px] text-[#7B7BFF] font-bold">•</span>
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200" href="#">nuqtai nazar</a>
+                <span class="text-[14px] px-[12px] text-[#7B7BFF] font-bold">•</span>
+                <a class="text-[#151515] text-[14px] font-bold uppercase hover:text-[#9333ea] duration-200" href="#">info-taqdim</a>
+                <span class="text-[14px] px-[12px] text-[#7B7BFF] font-bold">•</span>
+                <i class='hover:text-[#9333ea] duration-200 text-[24px] bx bx-search-alt-2'></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="lg:col-span-9 sm:col-span-12 pb-[28px]">
+                <div class="mb-[28px]">
+                    <p class="text-[#151515] text-[28px] font-bold">Biz kim?</p>
+                    <p class="text-[#2B3244B2] pt-[16px] text-[14px] font-normal leading-[140%]">
+                        “Aksent” internet-nashrida 50 dan ortiq tajribali, yosh taniqli jurnalistlar, shuningdek,
+                        muharrir va musahhihlar faoliyat olib bormoqda. Ijodiy jamoamizda ham yosh kadrlarni, ham katta
+                        ish tajribasiga ega jurnalistlarni uchratishingiz mumkin.
+                        Biz o‘quvchilarimizni barcha muhim voqealar va yangiliklardan xabardor qilish uchun kuniga 24
+                        soat, yiliga 365 kun ishlaymiz.
+                    </p>
+                </div>
+                <div class="grid grid-cols-12 gap-4 border border-[#1515150f]">
+                    <div class="px-[16px] sm:w-full sm:col-span-12 lg:col-span-6 border pb-[74px] border-[#1515150F]">
+                        <p class="text-[#151515] pt-[16px] text-[20px] font-medium">Biz bilan bog'laning</p>
+                        <p class="text-[14px] text-[#2B3244B2] pt-[9px] font-normal leading-[140%]">
+                            Agar sizda takliflar, shikoyatlar yoki savollaringiz bo’lsa biz bilan bog’laning yoki
+                            formani to’ldiring
+                        </p>
+                        <div class="pt-[32px]">
+                            <p class="text-[#151515] text-[16px] font-medium">Biz bilan bog'laning</p>
+                            <div class="items-center pt-[17px] flex">
+                                <i class='pr-[6px] text-[#7B7BFF] text-[20px] bx bx-phone-call'></i>
+                                <p class="text-[#151515] text-[14px] font-semibold uppercase">+998(71)244-15-26</p>
+                            </div>
+                            <div class="items-center pt-[18px] flex">
+                                <i class='pr-[6px] text-[#7B7BFF] text-[20px] bx bx-envelope'></i>
+                                <p class="text-[#151515] text-[14px] font-semibold">info@aksent.uz</p>
+                            </div>
+                        </div>
+                        <div class="pt-[33px]">
+                            <p class="pb-[14px] text-[16px] font-medium text-[#151515]">Bizni ijtimoiy tarmoqlarda
+                                kuzating</p>
+                            <div class="flex gap-[20px] text-[20px] text-[#6b7280]">
+                                <div class="bg-[#1515150F]">
+                                    <a href="#" class="px-[8px] py-[15px]">
+                                        <i class='bx bxl-facebook-circle'></i>
+                                    </a>
+                                </div>
+                                <div class="bg-[#1515150F]">
+                                    <a href="#" class="px-[8px] py-[15px]">
+                                        <i class='bx bxl-twitter'></i>
+                                    </a>
+                                </div>
+                                <div class="bg-[#1515150F]">
+                                    <a href="#" class="px-[8px] py-[15px]">
+                                        <i class='bx bxl-youtube'></i>
+                                    </a>
+                                </div>
+                                <div class="bg-[#1515150F]">
+                                    <a href="#" class="px-[8px] py-[15px]">
+                                        <i class='bx bxl-instagram'></i>
+                                    </a>
+                                </div>
+                                <div class="bg-[#1515150F]">
+                                    <a href="#" class="px-[8px] py-[15px]">
+                                        <i class='bx bxl-telegram'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:col-span-12 lg:col-span-6">
+                        <div class="pr-[16px] pt-[15px]">
+                            <p class="text-[#151515] text-[16px] pb-[16px] font-medium">Qayta aloqaga chiqish</p>
+                            <div>
+                                <label class="text-[#818181] text-[14px] font-normal leading-[20px]"
+                                    for="">Ismingiz</label>
+                                <input type="text" class="py-[8px] my-[8px] m pl-[12px] w-full h-[36px] bg-[#0000000F]"
+                                    placeholder="Ismingizni kiriting">
+                                <label class="text-[#818181] text-[14px] font-normal leading-[20px]" for="">Telefon
+                                    raqam</label>
+                                <input type="number"
+                                    class="py-[8px] my-[8px] pl-[12px] bg-[#0000000F] w-full h-[36px]"
+                                    placeholder="Telefon raqamingizni kiriting">
+                                <label class="text-[#818181] text-[14px] font-normal leading-[20px]" for="">Sizning
+                                    taklifingiz</label>
+                                <textarea
+                                    class="py-[8px] my-[8px] resize-none pl-[12px] w-full h-[100px] bg-[#0000000F]"
+                                    cols="30" rows="10" placeholder="Sizning taklifingiz"></textarea>
+                                <button class="w-full text-center py-[10px] text-white bg-[#7B7BFF]"
+                                    type="submit">Yuborish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[76px]">
+                    <p class="text-[#151515] text-[28px] font-bold">Bizning jamoa</p>
+                        <div class="flex gap-[25px] mt-[40px] flex-wrap">
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team1.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team2.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team3.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team4.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team5.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team6.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team7.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team8.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team9.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team10.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team11.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                            <div class="items-center border border-[#0000000F] px-[20px] justify-center flex-col inline-flex">
+                                <img class="mx-auto" src="./img/team12.png" alt="">
+                                <p class="pt-[27px] text-[#151515] text-[18px] font-bold">Axmadjon Sanakulov</p>
+                                <p class="pb-[27px] text-[#2B3244B2] text-[14px] mt-[6px]">Direktor</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="lg:col-span-3 sm:hidden lg:inline pt-[28px]">
+                <img src="/img/image 41.png" alt="">
+                <div class="border border-[#1515150F] mt-[32px]">
+                    <button class="py-[12px] bg-[#F2F2FA] bg-[#F2F2FA] w-full text-[#151515] text-[13px] font-semibold uppercase">Ijtimoiy so'rovnoma</button>
+                    <p class="pt-[8px] px-[12px] pb-[12px] text-[14px] text-[#818181] font-[14px] font-normal leading-[20px]">
+                        Aksent jamoasi sizga “Bo‘limlar” mavzusidagi so‘rovnomada qatnashishni taklif qiladi
+                    </p>
+                    <span class="h-[2px] w-full bg-[#7B7BFF] block"></span>
+                    <div class="px-[12px]">
+                        <p class="pt-[16px] text-[#151515] text-[16px] font-medium leading-[20px]">Qaysi bo'limdagi yangiliklar sizni ko'proq qiziqtiradi</p>
+
+                    <div class="flex flex-col pb-[16px]">
+                        <label class="pt-[12px]">
+                            <input type="checkbox"> Davlat
+                        </label>
+                        <label class="pt-[12px]">
+                            <input type="checkbox"> Dunyo
+                        </label>
+                        <label class="pt-[12px]">
+                            <input type="checkbox"> Sport
+                        </label>
+                        <label class="pt-[12px]">
+                            <input type="checkbox"> Siyosat
+                        </label>
+                        <label class="pt-[12px]">
+                            <input type="checkbox"> Jamiyat
+                        </label>
+                        <label class="py-[12px]">
+                            <input type="checkbox"> Boshqa
+                        </label>
+                    </div>
+
+                    <p class="pb-[8px] text-[#818181] text-[14px] font-normal leading-[20px]">Sizning taklifingiz</p>
+                    <textarea class="pt-[8px] h-[100px] w-full px-[12px] bg-[#0000000F]" cols="30" rows="10" placeholder="Sizning taklifingiz"></textarea>
+                    <button class="w-full text-center mt-[20px] py-[10px] text-white bg-[#7B7BFF]"
+                                    type="submit">Ovoz berish</button>
+                    <p class="text-center py-[20px] text-[#7B7BFF] text-[14px] font-medium leading-[20px]">Jami ovozlar: <span class="text-[#151515]">1125ta</span></p>
+                    </div>
+                      
+            
+                </div>
+            </div>
+    </section>
+
+    <footer class="items-center mt-[82px] bg-[#F2F2FA]">
+        <div class="mx-auto pt-[38px] pb-[22px]">
+                <img class="mx-auto" src="./img/Aksent.png" alt="">
+                <span class="mt-[36px] bg-neutral-900 bg-opacity-20 flex h-[1px] flex-col"></span>
+                <div class="container mx-auto grid grid-cols-12">
+                    <div class="sm:col-span-12 sm:text-center lg:text-left lg:col-span-8 py-[21px] text-[#151515] text-[14px] font-bold uppercase">
+                        <a class="hover:text-[#9333ea] duration-200" href="#">siyosat</a>
+                        <a class="hover:text-[#9333ea] duration-200 mr-[24px]" href="#">jamiyat</a>
+                        <a class="hover:text-[#9333ea] duration-200 mr-[24px]" href="#">tahlil</a>
+                        <a class="hover:text-[#9333ea] duration-200 mr-[24px]" href="#">prognoz</a>
+                        <a class="hover:text-[#9333ea] duration-200 mr-[24px]" href="#">biz kim?</a>
+                        <a class="hover:text-[#9333ea] duration-200" href="#">foydalanish qoidalari</a>
+                    </div>
+                    <div class="sm:cols-span-12 lg:col-span-4 flex items-center">
+                        <div class="flex gap-[20px] text-[20px] text-[#6b7280]">
+                            <div class="bg-[#1515150F]">
+                                <a href="#" class="px-[8px] py-[15px]">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a>
+                            </div>
+                            <div class="bg-[#1515150F]">
+                                <a href="#" class="px-[8px] py-[15px]">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </div>
+                            <div class="bg-[#1515150F]">
+                                <a href="#" class="px-[8px] py-[15px]">
+                                    <i class='bx bxl-youtube'></i>
+                                </a>
+                            </div>
+                            <div class="bg-[#1515150F]">
+                                <a href="#" class="px-[8px] py-[15px]">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </div>
+                            <div class="bg-[#1515150F]">
+                                <a href="#" class="px-[8px] py-[15px]">
+                                    <i class='bx bxl-telegram'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="bg-neutral-900 mb-[28px] bg-opacity-20 flex h-[1px] flex-col"></span>
+                <div class="container mx-auto grid grid-cols-12">
+                    <div class="sm:col-span-12 md:col-span-5">
+                        <p class="text-[#A1A1A1] text-[14px] font-normal leading-[130%]">Sayt axborotlaridan foydalanishda “aksent.uz” sayti havolasi berilishi so‘raladi.
+                            1043 sonli OAV (veb-sayt) davlat ro‘yxatidan o‘tkazilgani to‘g‘risidagi guvohnoma.</p>
+                    </div>
+                    <div class="sm:col-span-12 sm:pt-[20px] md:pt-0 md:col-span-6 items-center">
+                        <div class="sm:text-left md:text-right items-center">
+                            <p class="text-[#A1A1A1] text-[14px] font-normal leading-[130%]">Aksent.uz taxririyatining telefon raqami</p>
+                               <div class="items-center">
+                                <i class='inline-flex pr-[6px] text-[#7B7BFF] text-[20px] bx bx-phone-call'></i>
+                                <p class="inline-flex text-[#151515] text-[14px] font-semibold">+998(99)999-99-99</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="bg-[#151515]">
+            <div class="container mx-auto flex py-[16px] justify-between items-center">
+                <p class="text-[#818181] text-[14px] font-normal leading-[130%]">© 2021 aksent.uz</p>
+                <img src="./img/uic-logo.svg" alt="">
+                <p></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                container: {
+                    container: true,
+                    padding: "2rem",
+                },
+                fontFamily: {
+                    "ibm-plex": "IBM Plex Sans",
+                },
+            },
+        },
+    };
+</script>
+
+</html>
